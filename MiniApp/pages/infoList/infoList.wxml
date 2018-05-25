@@ -1,0 +1,16 @@
+<!--logs.wxml-->
+<view class='info'>
+  <!-- <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block> -->
+<view class='info-list'>
+  <view class='info-list-header'>
+  <text>菜单</text>
+  </view>
+
+  <view bindtap='toMenuOneInfo' class='info-list-body'>
+  <text>笔记本推荐</text>
+  </view>
+</view>
+
+</view>

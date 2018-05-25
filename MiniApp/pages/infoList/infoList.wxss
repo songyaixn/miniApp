@@ -1,0 +1,33 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.info{
+  background-color: #b2ebf4;
+  /* height: 1000rpx; */
+  height:1200rpx;
+}
+.info-list {
+    /* width: 300rpx; */
+  
+}
+.info-list-body{
+background:url("https://image.gunlei.com/gunlei1527154783769.png");
+    height: 300rpx;
+    text-align: center;
+    line-height: 300rpx;
+    font-size: 120rpx;
+    border: 5rpx solid cornflowerblue;
+    -moz-border-radius: 15rpx;      
+    -webkit-border-radius: 15rpx;   
+    border-radius:15rpx;   
+}
+.info-list-header{
+   font-size: 60rpx;
+  text-align: center;
+  font-weight: bold
+}

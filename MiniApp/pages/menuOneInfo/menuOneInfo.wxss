@@ -1,0 +1,17 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.menu-info{
+    background-color: #b2ebf4;
+  /* height: 1000rpx; */
+
+}
+.menu-info-text{
+    border: 5rpx solid cornflowerblue;
+    margin-top: 50rpx
+}
