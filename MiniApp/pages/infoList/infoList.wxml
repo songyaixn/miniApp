@@ -5,11 +5,16 @@
   </block> -->
 <view class='info-list'>
   <view class='info-list-header'>
-  <text>菜单</text>
+  <text>随便看看</text>
   </view>
 
-  <view bindtap='toMenuOneInfo' class='info-list-body'>
+  <!-- <view bindtap='toMenuOneInfo' class='info-list-body'>
   <text>笔记本推荐</text>
+  </view> -->
+  <!-- 循环一个数组 用来插入对应的数据 -->
+  
+  <view wx:for="{{lists}}" wx:for-item="lists">
+  <view class='index-lists'>{{lists}}</view>
   </view>
 </view>
 

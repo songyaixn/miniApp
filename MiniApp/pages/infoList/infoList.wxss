@@ -15,6 +15,12 @@
     /* width: 300rpx; */
   
 }
+.index-lists{
+  border-style: solid;
+  border-radius:25px;
+  margin: 10rpx;
+  border-color: blue;
+}
 .info-list-body{
 background:url("https://image.gunlei.com/gunlei1527154783769.png");
     height: 300rpx;
